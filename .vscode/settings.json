@@ -1,0 +1,10 @@
+{
+    "r.plot.defaults.colorTheme": "vscode",
+"r.rterm.mac": "/usr/local/bin/R",
+"r.rterm.option": [
+    "--no-save",
+    "--no-restore"
+],
+"r.lsp.path": "/usr/local/bin/R",
+"r.lsp.debug": true
+}

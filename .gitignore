@@ -1,0 +1,23 @@
+# Ignorar todos os CSVs por padrão
+*.csv
+.conventions.txt
+
+# Exceções: incluir arquivos CSV da pasta de dados processados
+!life_tables_raw/02_datasets_tiny/*.csv
+!life_tables_raw/02_datasets_tiny/*.xlsx
+!life_tables_raw/02_datasets_tiny/*.xls
+!life_tables_raw/02_datasets_tiny/*.txt
+!life_tables_raw/02_datasets_tiny/*.R
+!life_tables_raw/02_datasets_tiny/*.Rmd
+!life_tables_raw/02_datasets_tiny/*.Rproj
+!life_tables_raw/02_datasets_tiny/*.rds
+
+# Ignorar arquivos em pastas específicas
+00_datasets_raw/*.csv
+01_datasets_working/*.csv
+99_others/meta-analysis 
+
+# Evitar arquivos temporários e de backup comuns
+*.tmp
+*.bak
+.DS_Store
